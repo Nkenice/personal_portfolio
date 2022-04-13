@@ -7,7 +7,16 @@
 .hero {
   height: 100vh;
   width: 100%;
-  background-image: url("../images/background-photo1.jpg");
+  /* background-image: url("../images/background-photo1.jpg");*/
+  background-color: #95a5a6;
   background-size: cover;
   background-position: left;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
 }

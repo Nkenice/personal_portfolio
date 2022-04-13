@@ -4,11 +4,14 @@
   padding: 0;
   margin: 0;
 }
+body {
+  background-color: #95a5a6;
+}
 .hero {
   height: 100vh;
   width: 100%;
   /* background-image: url("../images/background-photo1.jpg");*/
-  background-color: #95a5a6;
+  background-color: #062e31;
   background-size: cover;
   background-position: left;
 }
@@ -55,4 +58,10 @@ nav ul li a:hover {
 }
 .btn:hover {
   transform: scale(1.2);
+}
+.intro {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
 }

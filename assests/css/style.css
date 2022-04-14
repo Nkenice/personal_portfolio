@@ -5,7 +5,7 @@
   margin: 0;
 }
 body {
-  background-color: #062e31;
+  background-color: rgb(17, 17, 17);
 }
 .hero {
   height: 100vh;
@@ -27,7 +27,7 @@ nav {
   background-color: black;
 }
 .logo {
-  color: rgb(240, 248, 255);
+  color: rgb(219, 211, 200);
   font-size: 40px;
   letter-spacing: 3px;
   cursor: pointer;
@@ -41,7 +41,7 @@ nav ul li {
   padding: 10px 30px;
 }
 nav ul li a {
-  color: rgb(240, 248, 255);
+  color: rgb(219, 211, 200);
   text-transform: capitalize;
   text-decoration: none;
   font-weight: bold;
@@ -53,7 +53,7 @@ nav ul li a:hover {
   box-shadow: 0 0 10px #062e31;
 }
 .btn {
-  color: rgb(240, 248, 255);
+  color: rgb(219, 211, 200);
   background-color: rgb(95, 3, 3);
   font-weight: bold;
   padding: 10px 30px;
@@ -73,29 +73,49 @@ nav ul li a:hover {
   transform: translateY(-50%);
 }
 h1 {
-  color: rgb(240, 248, 255);
+  color: rgb(219, 211, 200);
   font-size: 60px;
   margin: 25px 0px 25px;
   text-transform: capitalize;
 }
 
 h3 {
-  color: rgb(240, 248, 255);
+  color: #062e31;
   font-size: 30px;
 }
 /*About Me section*/
-#about-me {
+.headings {
+  margin-left: 200px;
+  font-weight: lighter;
+}
+#about_me {
   display: flex;
   padding: 20px;
   margin-bottom: 50px;
-  flex-direction: column;
+  flex-direction: row;
   box-sizing: border-box;
+  justify-content: space-around;
 }
 
 #photo {
   display: flex;
+  width: 900px;
+  height: 500px;
 }
-#photo img {
-  width: 575px;
-  height: 400px;
+#about_me img {
+  height: 100%;
+  padding-top: 80px;
+}
+
+#introduction {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 10px;
+  color: rgb(219, 211, 200);
+  margin-left: 15px;
+}
+#introduction h2 {
+  margin-bottom: 20px;
+  letter-spacing: 1px;
 }

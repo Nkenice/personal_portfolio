@@ -5,16 +5,17 @@
   margin: 0;
 }
 body {
-  background-color: #95a5a6;
+  background-color: #062e31;
 }
 .hero {
   height: 100vh;
   width: 100%;
-  /* background-image: url("../images/background-photo1.jpg");*/
+  background-image: url("../images/background-photo1.jpg");
   background-color: #062e31;
   background-size: cover;
   background-position: left;
 }
+/*Navbar*/
 nav {
   display: flex;
   align-items: center;
@@ -22,11 +23,12 @@ nav {
   padding-top: 40px;
   padding-left: 5px;
   padding-right: 5px;
+  font-size: large;
 }
 .logo {
   color: rgb(240, 248, 255);
   font-size: 40px;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
   cursor: pointer;
   padding-left: 15px;
 }
@@ -46,6 +48,8 @@ nav ul li a {
 nav ul li a:hover {
   color: rgb(95, 3, 3);
   transition: 0.5s;
+  background-color: #062e31;
+  box-shadow: 0 0 10px #062e31;
 }
 .btn {
   color: rgb(240, 248, 255);
@@ -55,15 +59,26 @@ nav ul li a:hover {
   border: 2px solid transparent;
   border-radius: 35px;
   text-decoration: none;
-  transition: 0.4s;
+  transition: 0.5s;
   margin-right: 10px;
 }
 .btn:hover {
   transform: scale(1.2);
 }
-.intro {
+.main {
   position: absolute;
   top: 50%;
   left: 8%;
   transform: translateY(-50%);
+}
+h1 {
+  color: rgb(240, 248, 255);
+  font-size: 60px;
+  margin: 25px 0px 25px;
+  text-transform: capitalize;
+}
+
+h3 {
+  color: rgb(240, 248, 255);
+  font-size: 30px;
 }

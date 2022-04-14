@@ -83,11 +83,19 @@ h3 {
   color: rgb(240, 248, 255);
   font-size: 30px;
 }
-.img {
-  background-size: contain;
+/*About Me section*/
+#about-me {
+  display: flex;
+  padding: 20px;
+  margin-bottom: 50px;
+  flex-direction: column;
+  box-sizing: border-box;
 }
-. {
-  background-image: url("../images/about-me-background.jpg");
-  height: 100vh;
-  width: 100%;
+
+#photo {
+  display: flex;
+}
+#photo img {
+  width: 575px;
+  height: 400px;
 }

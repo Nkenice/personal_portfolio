@@ -145,3 +145,6 @@ p {
   color: rgb(95, 3, 3);
   background: none;
 }
+
+/*Responsive media query begins*/
+@media (max-width: 1104px);

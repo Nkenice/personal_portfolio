@@ -16,7 +16,7 @@ body {
   background-position: left;
 }
 /*Navbar*/
-nav {
+.nav-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -36,6 +36,13 @@ nav {
 span {
   color: rgb(95, 3, 3);
 }
+
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
 nav ul li {
   display: inline-block;
   padding: 10px 30px;
@@ -146,5 +153,17 @@ p {
   background: none;
 }
 
+.download-btn {
+  width: 11rem;
+}
+
 /*Responsive media query begins*/
-@media (max-width: 1104px);
+@media (max-width: 820px) {
+  .nav-menu {
+    flex-direction: column;
+  }
+
+  .nav-container {
+    flex-direction: column;
+  }
+}

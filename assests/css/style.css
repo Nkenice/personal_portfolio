@@ -9,7 +9,8 @@ body {
   background-color: rgb(17, 17, 17);
 }
 
-html, body{
+html,
+body {
   height: 100%;
   width: 100%;
 }
@@ -80,6 +81,7 @@ nav ul li a:hover {
   transition: 0.5s;
   margin-right: 10px;
   margin-bottom: 10px;
+  display: block;
 }
 .btn:hover {
   transform: scale(1.2);
@@ -136,9 +138,9 @@ h3 {
   width: 500px;
 }
 
-#about-content h1{
-margin-left: 0 !important;
-
+#about-content h1 {
+  margin-left: 0 !important;
+  text-align: left !important;
 }
 
 #about-content h2 {
@@ -181,38 +183,44 @@ margin-left: 0 !important;
 #projects {
   display: flex;
   flex-direction: column;
+  margin-bottom: 50px;
 }
 
-#recent-work{
+#recent-work {
   height: 500px;
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-#recent-work-content{
+#recent-work-content {
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-left: 50px;
+  align-items: flex-start;
 }
 
-#recent-work-content h2{
+#recent-work-content h2 {
   color: rgb(219, 211, 200);
   font-size: 1.5em;
   margin-bottom: 20px;
 }
 
-#recent-work-content a{
+#recent-work-content a {
   text-decoration: none;
 }
 
-#recent-work-content p{
+#recent-work-button {
+  margin-top: 20px;
+}
+
+#recent-work-content p {
   color: rgb(219, 211, 200);
 }
 
-#recent-work-image-container{
+#recent-work-image-container {
   width: 50%;
   background: grey;
   background-image: url("/assests/images/Horiseon-Marketing Agency Refactor.jpg");
@@ -220,11 +228,9 @@ margin-left: 0 !important;
   background-position: center;
 }
 
-
-
-
-
-
+#other-projects-h2 {
+  color: rgb(219, 211, 200) !important;
+}
 
 .gallery {
   display: flex;
@@ -234,17 +240,17 @@ margin-left: 0 !important;
   gap: 30px;
 }
 
-.gallery-box{
-width: 360px;
-height: 240px;
-background-color: rgb(219, 211, 200);
-display: flex;
-justify-content: center;
-align-items: center;
-font-weight: bold;
+.gallery-box {
+  width: 360px;
+  height: 240px;
+  background-color: rgb(219, 211, 200);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
 }
 
-.gallery-box p{
+.gallery-box p {
   color: rgb(95, 3, 3);
 }
 
@@ -252,10 +258,17 @@ font-weight: bold;
 #contact {
   display: flex;
   flex-direction: column;
+  align-items: center;
   box-sizing: border-box;
   color: rgb(95, 3, 3);
   padding: 20px;
 }
+
+#contact p {
+  color: rgb(219, 211, 200);
+  margin-bottom: 20px;
+}
+
 .form {
   display: flex;
   flex-direction: column;
@@ -292,10 +305,11 @@ input[type="submit"]:hover {
   border-radius: 5px;
   background-color: rgb(219, 211, 200);
   padding: 10px;
+  width: 50%;
 }
 
 /*Responsive media query begins*/
-@media (max-width:820px) {
+@media (max-width: 820px) {
   .nav-menu {
     flex-direction: column;
   }
@@ -317,12 +331,13 @@ input[type="submit"]:hover {
     flex-direction: row;
   }
 
-  #projects h1{
+  #projects h1 {
     text-align: center;
   }
   #contact {
     flex-direction: column;
-}
-.h1{
-  display: row;
+  }
+  .h1 {
+    display: row;
+  }
 }

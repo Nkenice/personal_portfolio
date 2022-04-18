@@ -37,7 +37,7 @@
     </section>
 
     <!--About Me Section starts here-->
-    <section id="about_me">
+    <section id="about-me">
       <div id="about">
         <img src="./assests/images/about-me-photo.jpg" alt="" />
       </div>
@@ -53,7 +53,6 @@
             and creating websites to the highest standard. Eunice is very
             ambitious and have massive energy needed to really make a difference
             to a project.
-            <a class="download-btn" href="#">Download CV</a>
           </p>
         </div>
       </div>
@@ -62,6 +61,20 @@
     <!--Projects section starts here-->
     <section id="Projects">
       <h1 class="headings">PRO<span>JECTS</span></h1>
+
+      <div class="recent-work">
+
+        <div class="recent-work-content">
+          
+        </div>
+
+        <div class="recent-work-image-container">
+
+        </div>
+
+
+      </div>
+
       <div class="gallery">
         <a href="https://nkenice.github.io/marketing_agency_refactor/">
           <img
@@ -79,39 +92,55 @@
     <!--Contact me section starts here-->
     <section id="contact">
       <h1 class="headings">CONTACT<span> ME</span></h1>
-      <div class="social">
-        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      <div class="container">
+        <div style="text-align:center">
+          <p>Fill the form below to contact me. I am looking forward to working with you.</p>
+        </div>
+      <div class="column">
+        <label form="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your First Name..."
+          />
+          <label form="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your Last Name..."
+          />
+          <label for="lname">Your Email</label>
+          <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Your Last Email..."
+        />
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 170px"
+          ></textarea>
+          <input type="submit" value="Submit" />
+        </form>
       </div>
-      <form action="" class="form"></form>
-      <input
-        type="text"
-        name="name"
-        class="input"
-        placeholder="Please Enter Your Name"
-      />
-      <input
-        type="email"
-        name="email"
-        class="mail"
-        placeholder="Please Enter Your Email"
-      />
-      <textarea
-        name="msg"
-        id="msg"
-        cols="30"
-        row="10"
-        placeholder="Please Enter Your Message"
-      ></textarea>
-      <div>
-        <button>Submit</button>
       </div>
     </section>
 
+    <!--Footer Section starts here-->
     <footer>
       <p>Author: Eunice Nkechi Opara</p>
-      <a href="mailto:nkenice@yahoo.com">nkenice@yahoo.com</a>
+      <div class="social">
+        <a href="#https://www.facebook.com/nkechieunice"
+          ><i class="fa-brands fa-facebook-f"></i
+        ></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
     </footer>
   </body>
 </html>

@@ -6,11 +6,13 @@ MY PERSONAL PORTFOLIO
 
 ## DESCRIPTION
 
-TODO
+This portfolio website is
+
+## TO DO
+
+Other projects will be included in the future when they are finished
 
 ## Deployed URL
-
-You can find the application deployed to github pages [here](https://github.com/surajverma2587)
 
 ## Technologies
 
@@ -18,18 +20,14 @@ You can find the application deployed to github pages [here](https://github.com/
 - CSS
 - GitHub Pages
 - FontAwesome
-- ...more
+-
 
 ## Screenshots
 
 ### Desktop Viewports
 
-![spiderman](./assets/images/img1.jpg)
-
 ### Mobile Viewports
-
-![spiderman](./assets/images/img1.jpg)
 
 ## About Me
 
-You can add your email, stuff about yourself...
+I am Eunice Nkechi Opara,

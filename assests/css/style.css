@@ -39,7 +39,7 @@ body {
 }
 .logo {
   color: rgb(219, 211, 200);
-  font-size: 40px;
+  font-size: 50px;
   letter-spacing: 1px;
   cursor: pointer;
   padding-left: 15px;
@@ -130,6 +130,9 @@ h3 {
   height: 100%;
   padding-top: 0px;
   display: flex;
+}
+#about-me-h1 {
+  text-align: left;
 }
 #about-content {
   display: flex;
@@ -306,6 +309,25 @@ input[type="submit"]:hover {
   background-color: rgb(219, 211, 200);
   padding: 10px;
   width: 50%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+footer h2 {
+  color: rgb(219, 211, 200);
+  margin-bottom: 5px;
+  margin-top: 50px;
+}
+
+footer i {
+  font-size: 30px;
+  color: rgb(219, 211, 200);
+  margin: 20px;
 }
 
 /*Responsive media query begins*/

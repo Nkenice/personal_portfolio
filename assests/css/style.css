@@ -335,6 +335,7 @@ footer i {
 
 /*Responsive media query begins*/
 @media (max-width: 820px) {
+  /* Navigation Menu */
   .nav-menu {
     flex-direction: column;
   }
@@ -343,26 +344,33 @@ footer i {
     flex-direction: column;
   }
 
+  /* About Me Section */
   #about-me {
     flex-direction: column;
   }
 
   #about-content {
-    flex-direction: row;
+    flex-direction: column;
     margin: 0px;
   }
 
+  /* Projects Section */
   #projects {
-    flex-direction: row;
+    flex-direction: column;
   }
 
   #projects h1 {
     text-align: center;
   }
-  #contact {
+  #first-project {
     flex-direction: column;
   }
-  .h1 {
-    display: row;
+
+  #first-project-image-container {
+    height: 260px;
+    width: auto;
+  }
+  #first-project-content {
+    width: 410px;
   }
 }

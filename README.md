@@ -27,7 +27,7 @@ Other projects will be included in the future when they are completed
 ![navbar-and-hero-section](./assets/images/navbar-and-hero-section.jpg)
 ![contact-me-section](./assets/images/contact-me-section.jpg)
 ![projects-section](./assets/images/projects-section.jpg)
-![first-projects-section](./assets/images/ma-section.jpg)
+![first-projects-section](./assets/images/horiseon-marketing-agency-refactor.jpg)
 ![other-projects-section](./assets/images/other-projects-section.jpg)
 ![footer-section](./assets/images/footer.jpg)
 

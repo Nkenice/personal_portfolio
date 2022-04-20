@@ -95,7 +95,7 @@ nav ul li a:hover {
   align-items: center;
   /* flex-wrap: wrap; */
   padding-top: 5%;
-  background: url("/assests/images/background-photo.jpg");
+  background: url("/assets/images/background-photo.jpg");
   height: 800px;
   background-size: cover;
   background-position: center;
@@ -237,7 +237,7 @@ h3 {
 #first-project-image-container {
   width: 50%;
   background: grey;
-  background-image: url("/assests/images/Horiseon-Marketing Agency Refactor.jpg");
+  background-image: url("/assets/images/Horiseon-Marketing Agency Refactor.jpg");
   background-size: cover;
   background-position: center;
 }
